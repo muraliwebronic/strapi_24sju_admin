@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_to_shop_contents",
+  "info": {
+    "singularName": "how-to-shop-content",
+    "pluralName": "how-to-shop-contents",
+    "displayName": "sa-fungerar-det - how-to-shop-steps"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "decription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

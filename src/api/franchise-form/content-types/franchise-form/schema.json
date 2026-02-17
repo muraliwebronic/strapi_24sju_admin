@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "franchise_forms",
+  "info": {
+    "singularName": "franchise-form",
+    "pluralName": "franchise-forms",
+    "displayName": "vara-butiker - franchise-form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "about": {
+      "type": "text",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "storeCount": {
+      "type": "string",
+      "required": true
+    },
+    "openTime": {
+      "type": "string",
+      "required": true
+    },
+    "capital": {
+      "type": "string",
+      "required": true
+    },
+    "source": {
+      "type": "string",
+      "required": true
+    },
+    "gdprConsent": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

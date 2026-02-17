@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "timeline_sections",
+  "info": {
+    "singularName": "timeline-section",
+    "pluralName": "timeline-sections",
+    "displayName": "home - timeline-header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string",
+      "default": "Vår",
+      "required": true
+    },
+    "secondTitle": {
+      "type": "string",
+      "default": "värld",
+      "required": true
+    },
+    "decription": {
+      "type": "text",
+      "default": "2019 inleddes en utredning om bolagets framtid, 2020 startades bolaget & utveckling av mjukvaran inleddes. Sedan dess har det gått i rasande fart",
+      "required": true
+    }
+  }
+}

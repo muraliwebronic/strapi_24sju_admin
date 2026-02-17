@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "vara_butiker_heroes",
+  "info": {
+    "singularName": "vara-butiker-hero",
+    "pluralName": "vara-butiker-heroes",
+    "displayName": "vara-butiker - hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "string",
+      "default": "OUR",
+      "required": true
+    },
+    "secondMainHeading": {
+      "type": "string",
+      "default": "StoresStores",
+      "required": true
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

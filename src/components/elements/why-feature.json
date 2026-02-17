@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_why_features",
+  "info": {
+    "displayName": "Why Feature"
+  },
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false
+    },
+    "titleRegular": {
+      "type": "string",
+      "required": true
+    },
+    "titleItalic": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

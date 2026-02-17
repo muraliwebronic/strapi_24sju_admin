@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_contents",
+  "info": {
+    "singularName": "news-content",
+    "pluralName": "news-contents",
+    "displayName": "home - news"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "news": {
+      "type": "text",
+      "required": true
+    },
+    "newsImages": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "newsDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

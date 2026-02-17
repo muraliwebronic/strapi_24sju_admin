@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "safety_security_sections",
+  "info": {
+    "singularName": "safety-security-section",
+    "pluralName": "safety-security-sections",
+    "displayName": "sa-fungerar-det - Safety Security"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "string",
+      "default": "Trygghet",
+      "required": true
+    },
+    "secondMainHeading": {
+      "type": "string",
+      "default": "& Säkerhet",
+      "required": true
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "secondImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "decription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

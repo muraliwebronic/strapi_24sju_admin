@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "open_store_headers",
+  "info": {
+    "singularName": "open-store-header",
+    "pluralName": "open-store-headers",
+    "displayName": "oppna-butik - faq-header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

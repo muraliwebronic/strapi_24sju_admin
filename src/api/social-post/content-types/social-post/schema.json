@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_posts",
+  "info": {
+    "singularName": "social-post",
+    "pluralName": "social-posts",
+    "displayName": "home - social-posts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "overlayText": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

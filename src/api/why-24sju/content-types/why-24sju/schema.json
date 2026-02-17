@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_24sjus",
+  "info": {
+    "singularName": "why-24sju",
+    "pluralName": "why-24sjus",
+    "displayName": "oppna-butik - why-24sju"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introText": {
+      "type": "text"
+    },
+    "titlePrimary": {
+      "type": "string",
+      "default": "Why"
+    },
+    "titleSecondary": {
+      "type": "string",
+      "default": "24sju?"
+    },
+    "features": {
+      "type": "component",
+      "component": "elements.why-feature",
+      "repeatable": true
+    }
+  }
+}

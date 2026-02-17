@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "leftLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "rightLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "logoImage": {
+      "type": "media",
+      "multiple": false
+    },
+    "logoTextMain": {
+      "type": "string",
+      "default": "24SJU"
+    },
+    "logoTextSecondary": {
+      "type": "string",
+      "default": "Snabbköp"
+    },
+    "mobileMenuImageMain": {
+      "type": "media",
+      "multiple": false
+    },
+    "mobileMenuImageSecondary1": {
+      "type": "media",
+      "multiple": false
+    },
+    "mobileMenuImageSecondary2": {
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

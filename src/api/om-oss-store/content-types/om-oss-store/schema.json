@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "om_oss_stores",
+  "info": {
+    "singularName": "om-oss-store",
+    "pluralName": "om-oss-stores",
+    "displayName": "om-oss - stores-map"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "mapWithStores": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "storeCount": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

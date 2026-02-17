@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "need_help_teams",
+  "info": {
+    "singularName": "need-help-team",
+    "pluralName": "need-help-teams",
+    "displayName": "om-oss - support-team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

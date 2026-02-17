@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timeline_events",
+  "info": {
+    "singularName": "timeline-event",
+    "pluralName": "timeline-events",
+    "displayName": "home - timeline-events"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "yearPrefix": {
+      "type": "integer",
+      "required": true,
+      "default": 20
+    },
+    "yearSuffix": {
+      "type": "integer",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

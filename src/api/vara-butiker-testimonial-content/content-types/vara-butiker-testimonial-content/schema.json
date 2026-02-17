@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "vara_butiker_testimonial_contents",
+  "info": {
+    "singularName": "vara-butiker-testimonial-content",
+    "pluralName": "vara-butiker-testimonial-contents",
+    "displayName": "vara butiker – testimonial content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Testimonials"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Don't take our word for it! Hear it from our partners."
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "elements.testimonial",
+      "repeatable": true
+    }
+  }
+}

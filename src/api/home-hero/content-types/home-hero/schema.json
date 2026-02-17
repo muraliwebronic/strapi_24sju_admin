@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_heroes",
+  "info": {
+    "singularName": "home-hero",
+    "pluralName": "home-heroes",
+    "displayName": "home - hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headingTopLine": {
+      "type": "string",
+      "default": "Störst på obemannat,",
+      "required": true
+    },
+    "headingBottomLine": {
+      "type": "string",
+      "default": "av en anledning.",
+      "required": true
+    },
+    "subText": {
+      "type": "text",
+      "default": "24SJU är den största obemannade matkedjan i Europa. Det är ingen slump.",
+      "required": true
+    },
+    "ctaLabel": {
+      "type": "string",
+      "default": "Öppna butik",
+      "required": true
+    }
+  }
+}

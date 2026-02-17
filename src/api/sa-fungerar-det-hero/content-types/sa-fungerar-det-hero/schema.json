@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sa_fungerar_det_heroes",
+  "info": {
+    "singularName": "sa-fungerar-det-hero",
+    "pluralName": "sa-fungerar-det-heroes",
+    "displayName": "sa-fungerar-det - hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "decription": {
+      "type": "string",
+      "required": true
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

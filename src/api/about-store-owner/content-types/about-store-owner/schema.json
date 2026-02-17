@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_store_owners",
+  "info": {
+    "singularName": "about-store-owner",
+    "pluralName": "about-store-owners",
+    "displayName": "om-oss - store-owner-header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "string",
+      "default": "About our",
+      "required": true
+    },
+    "secondMainHeading": {
+      "type": "string",
+      "default": "storeowners",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "we are so much more than a brand, we've created a family...",
+      "required": true
+    }
+  }
+}

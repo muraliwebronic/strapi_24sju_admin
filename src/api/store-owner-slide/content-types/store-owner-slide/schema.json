@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "store_owner_slides",
+  "info": {
+    "singularName": "store-owner-slide",
+    "pluralName": "store-owner-slides",
+    "displayName": "om-oss - store-owner-slides"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "testimonialTitle": {
+      "type": "text"
+    },
+    "testimonialText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

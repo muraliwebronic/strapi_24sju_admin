@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "become_store_owners",
+  "info": {
+    "singularName": "become-store-owner",
+    "pluralName": "become-store-owners",
+    "displayName": "sa-fungerar-det - become-store-owner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

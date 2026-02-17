@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "open_store_faqs",
+  "info": {
+    "singularName": "open-store-faq",
+    "pluralName": "open-store-faqs",
+    "displayName": "oppna-butik - faq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": false
+    }
+  }
+}

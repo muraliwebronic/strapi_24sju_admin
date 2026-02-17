@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logoImage": {
+      "type": "media",
+      "multiple": false
+    },
+    "brandTextMain": {
+      "type": "string",
+      "default": "24SJU"
+    },
+    "brandTextSecondary": {
+      "type": "string",
+      "default": "Snabbköp Sverige"
+    },
+    "orgNumber": {
+      "type": "string"
+    },
+    "addressTitle": {
+      "type": "string",
+      "default": "Address"
+    },
+    "addressText": {
+      "type": "text"
+    },
+    "contactTitle": {
+      "type": "string",
+      "default": "Kontakt"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "bottomLinks": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": true
+    },
+    "copyrightText": {
+      "type": "string",
+      "default": "© 2025 All rights reserved"
+    }
+  }
+}
